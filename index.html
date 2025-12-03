@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Bắn Gà</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="start-screen" id="startScreen">
+            <h1>🎯 Game Bắn Gà</h1>
+            <button class="play-btn" id="playBtn">Chơi Ngay</button>
+        </div>
+
+        <div class="game-screen" id="gameScreen" style="display: none;">
+            <div class="score-board">
+                <div class="score-display" id="scoreDisplay">
+                    <span>Điểm: </span>
+                    <span id="score">0</span>
+                    <span>/12</span>
+                </div>
+            </div>
+            <div class="game-area" id="gameArea"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

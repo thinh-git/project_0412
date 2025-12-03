@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc Mừng Sinh Nhật!</title>
+    <link rel="stylesheet" href="birthday.css">
+</head>
+<body>
+    <div class="birthday-container">
+        <div class="confetti"></div>
+        <div class="confetti"></div>
+        <div class="confetti"></div>
+        <div class="confetti"></div>
+        <div class="confetti"></div>
+        
+        <div class="birthday-content">
+            <h1 class="bounce">🎉 Chúc Mừng Sinh Nhật! 🎉</h1>
+            <div class="cake">
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+            </div>
+            <p class="message">Chúc Mỹ Linh sinh nhật vui vẻ :DD !!!</p>
+            <button class="back-btn" onclick="window.location.href='index.html'">Chơi Lại</button>
+        </div>
+    </div>
+
+    <audio id="birthdayMusic" loop autoplay>
+        <source src="happy-birthday-368842.mp3" type="audio/mpeg">
+        <!-- Fallback: Sử dụng nhạc Happy Birthday từ CDN khác nếu cần -->
+    </audio>
+
+    <script src="birthday.js"></script>
+</body>
+</html>
+
