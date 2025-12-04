@@ -183,3 +183,27 @@ body {
     background: white;
 }
 
+.cat-container {
+    margin: 2rem 0;
+    animation: fadeIn 2s ease-in;
+}
+
+.cat-image {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    animation: float-cat 3s ease-in-out infinite;
+    margin-bottom: 1rem;
+}
+
+
+.cat-message {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-style: italic;
+    color: #fff;
+}
+
